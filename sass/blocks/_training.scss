@@ -1,0 +1,17 @@
+.training {
+	background: url(../images/pic/meditation-1.png);
+	@include header-bg;
+	padding: 60px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.training h2 {
+		color: #7F2B59;
+		@include look-h2;
+	}
+
+	.training .container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}

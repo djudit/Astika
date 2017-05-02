@@ -1,0 +1,19 @@
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+html,
+body {
+	font-family: Verdana;
+}
+img {
+	width: 100%;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+

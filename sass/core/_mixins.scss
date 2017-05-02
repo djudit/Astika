@@ -1,0 +1,14 @@
+@mixin header-bg {
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+}
+
+@mixin look-h2 {
+	font-family: Play;
+	font-size: 60px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: 40px;
+}
+

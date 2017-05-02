@@ -1,0 +1,34 @@
+.author {
+	background: url(../images/pic/lay-22.png);
+	@include header-bg;
+	padding: 30px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.1);
+}
+
+		#circle {
+			float: left;
+			background: url(../images/pic/lileyna.png);
+			width: 312px;
+			height: 312px;
+			border-radius: 156px;
+			box-shadow: 0 0 10px rgba(114, 46, 111, 0.3);
+		}
+
+		.author__about {
+			float: right;
+			width: 55%;
+		}
+
+			.author__about h2 {
+				font-family: Lobster;
+				font-size: 42px;
+				line-height: 60px;
+				color: #722E6F;
+			}
+
+			.author__about p {
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 48px;
+				color: #308686;
+			}

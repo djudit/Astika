@@ -1,0 +1,134 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-favicon-name: 'icon-favicon';
+$icon-favicon-x: 268px;
+$icon-favicon-y: 75px;
+$icon-favicon-offset-x: -268px;
+$icon-favicon-offset-y: -75px;
+$icon-favicon-width: 16px;
+$icon-favicon-height: 13px;
+$icon-favicon-total-width: 294px;
+$icon-favicon-total-height: 175px;
+$icon-favicon-image: '../images/sprite.png';
+$icon-favicon: (268px, 75px, -268px, -75px, 16px, 13px, 294px, 175px, '../images/sprite.png', 'icon-favicon', );
+$icon-fb-name: 'icon-fb';
+$icon-fb-x: 206px;
+$icon-fb-y: 75px;
+$icon-fb-offset-x: -206px;
+$icon-fb-offset-y: -75px;
+$icon-fb-width: 36px;
+$icon-fb-height: 36px;
+$icon-fb-total-width: 294px;
+$icon-fb-total-height: 175px;
+$icon-fb-image: '../images/sprite.png';
+$icon-fb: (206px, 75px, -206px, -75px, 36px, 36px, 294px, 175px, '../images/sprite.png', 'icon-fb', );
+$icon-logotype-small-name: 'icon-logotype-small';
+$icon-logotype-small-x: 206px;
+$icon-logotype-small-y: 0px;
+$icon-logotype-small-offset-x: -206px;
+$icon-logotype-small-offset-y: 0px;
+$icon-logotype-small-width: 88px;
+$icon-logotype-small-height: 75px;
+$icon-logotype-small-total-width: 294px;
+$icon-logotype-small-total-height: 175px;
+$icon-logotype-small-image: '../images/sprite.png';
+$icon-logotype-small: (206px, 0px, -206px, 0px, 88px, 75px, 294px, 175px, '../images/sprite.png', 'icon-logotype-small', );
+$icon-logotype-name: 'icon-logotype';
+$icon-logotype-x: 0px;
+$icon-logotype-y: 0px;
+$icon-logotype-offset-x: 0px;
+$icon-logotype-offset-y: 0px;
+$icon-logotype-width: 206px;
+$icon-logotype-height: 175px;
+$icon-logotype-total-width: 294px;
+$icon-logotype-total-height: 175px;
+$icon-logotype-image: '../images/sprite.png';
+$icon-logotype: (0px, 0px, 0px, 0px, 206px, 175px, 294px, 175px, '../images/sprite.png', 'icon-logotype', );
+$icon-more-name: 'icon-more';
+$icon-more-x: 242px;
+$icon-more-y: 75px;
+$icon-more-offset-x: -242px;
+$icon-more-offset-y: -75px;
+$icon-more-width: 26px;
+$icon-more-height: 25px;
+$icon-more-total-width: 294px;
+$icon-more-total-height: 175px;
+$icon-more-image: '../images/sprite.png';
+$icon-more: (242px, 75px, -242px, -75px, 26px, 25px, 294px, 175px, '../images/sprite.png', 'icon-more', );
+$spritesheet-width: 294px;
+$spritesheet-height: 175px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($icon-favicon, $icon-fb, $icon-logotype-small, $icon-logotype, $icon-more, );
+$spritesheet: (294px, 175px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

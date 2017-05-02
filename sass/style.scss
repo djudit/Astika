@@ -1,0 +1,17 @@
+@import "core/_reset.scss";
+@import "core/_variables.scss";
+@import "core/_mixins.scss";
+
+@import "_base.scss";
+@import "_icon.scss";
+
+/*@import "blocks/_index.scss";*/
+
+@import "blocks/_header.scss";
+@import "blocks/_menu.scss";
+@import "blocks/_author.scss";
+@import "blocks/_event.scss";
+@import "blocks/_training.scss";
+
+@import "components/_button.scss";
+

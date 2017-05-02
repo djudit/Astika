@@ -1,0 +1,22 @@
+.menu {
+	padding-top: (25px/940px)*100%;
+	padding-bottom: (25px/940px)*100%;
+}
+
+	.menu nav {
+		display: flex;
+		justify-content: space-around;
+	}
+
+		.menu a {
+			padding: 8px;
+			color: #921B8A;
+			font-size: 18px;
+			font-weight: 600;
+		}
+
+		.menu a:hover {
+			background: #921B8A;
+			color: #fff;
+			border-radius: 10px;
+		}

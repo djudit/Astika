@@ -1,0 +1,77 @@
+header {
+	background: url(../images/pic/yoga-3.png);
+	@include header-bg;
+}
+
+	@keyframes anim-bg {
+		0% {
+			background: none;
+		}
+		30% {
+			background: url(../images/pic/layer-2.png);
+			@include header-bg;
+			opacity: 0.2;
+		}
+		70% {
+			background: url(../images/pic/layer-2.png);
+			@include header-bg;
+			opacity: 0.5;
+		}
+		100% {
+			background: url(../images/pic/layer-2.png);
+			@include header-bg;
+		}
+	}
+
+	.header-bg {
+		padding-bottom: (40px/940px)*100%;
+		animation-name: anim-bg;
+		animation-duration: 7s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes anim-font {
+		0% {
+			opacity: 0.1;
+		}
+		30% {
+			opacity: 0.3;
+		}
+		70% {
+			opacity: 0.7;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+		.icon-logotype-small {
+			float: left;
+			margin-top: (15px/940px)*100%;
+			
+		}
+
+		h1 {
+			float: right;
+			margin-top: (30px/940px)*100%;
+			margin-right: 1%;
+			font-family: Play;
+			font-size: 60px;
+			font-weight: 600;
+			line-height: 85px;
+			color: #fff;
+			animation-name: anim-font;
+			animation-duration: 7s;
+			animation-fill-mode: forwards;
+		}
+
+		.header-bg p {
+			margin: 3% 1% 0 24%;
+			font-family: Lobster;
+			font-size: 36px;
+			line-height: 60px;
+			color: #fff;
+			animation-name: anim-font;
+			animation-duration: 10s;
+			animation-fill-mode: forwards;
+		}
