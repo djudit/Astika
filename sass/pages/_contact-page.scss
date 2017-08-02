@@ -1,0 +1,33 @@
+.contact-page-about {
+	padding-bottom: 50px;
+}
+
+	.contact-page-about .img-box {
+		float: left;
+		width: 20%;
+	}
+
+	.contact-page-about__txt {
+		float: right;
+		width: 70%;
+	}
+
+		.contact-page-about__txt p {
+			color: #216264;
+			font-size: 20px;
+			line-height: 24px;
+			margin-bottom: 14px;
+		}
+
+		.contact-page-about__txt__contact {
+			font-weight: 600;
+		}
+
+			.contact-page-about__txt__fb p {
+				display: inline-block;
+				margin-right: 3%;
+			}
+
+			.contact-page-about__txt__fb a {
+				display: inline-block;
+			}

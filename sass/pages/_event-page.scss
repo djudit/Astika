@@ -1,0 +1,47 @@
+.event-page-all__item {
+	margin-bottom: 20px;
+}
+	.event-page-all__item__img {
+		float: left;
+		width: 17%;
+	}
+
+	.event-page-all__item__date {
+		color: #722E6F;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 30px;
+		text-align: center;
+	}
+
+	.event-page-all__item__about {
+		float: right;
+		width: 73%;
+	}
+
+		.event-page-all__item__title {
+			display: block;
+			color: #722E6F;
+			font-size: 26px;
+			font-weight: 400;
+			line-height: 32px;
+		}
+		.event-page-all__item__title:hover {
+			color: #DD73AD;
+		}
+
+		.event-page-all__item__txt {
+			display: block;
+			color: #308686;
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 26px;
+			margin-top: 15px;
+		}
+		.event-page-all__item__txt:hover {
+			opacity: 0.3;
+		}
+
+		.event-page-all .more {
+				margin: 12% 95%;
+			}

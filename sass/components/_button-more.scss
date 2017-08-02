@@ -1,0 +1,20 @@
+.details {
+	background: #E3DBE6;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 15px;
+	margin: 25px 45%;
+	box-shadow: 0 0 12px rgba(180, 170, 184, 0.2);
+}
+.details:hover {
+	background: #ABA3A8;
+	box-shadow: 0 0 16px rgba(102, 98, 100, 0.8);
+}
+
+	.details a {
+		color: #6A3B7E;
+	}
+	.details:hover a {
+		color: #CE0788;
+	}

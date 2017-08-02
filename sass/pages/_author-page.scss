@@ -1,0 +1,42 @@
+.author-page-about {
+	background: url(../images/pic/lay-22.png);
+	@include header-bg;
+	padding-top: 30px;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.1);
+}
+
+	.author-page-about p {
+			font-size: 20px;
+			font-weight: 400;
+			color: #308686;
+			margin-bottom: 20px;
+		}
+
+		.author-page-about__studies__lileyna {
+			float: left;
+			width: 30%;
+			margin-right: 10%;
+		}
+
+			.author-page-about__studies__lileyna .img-box {
+				box-shadow: 0 0 10px rgba(114, 46, 111, 0.3);
+			}
+
+			.author-page-about__studies__lileyna h2 {
+				font-family: Lobster;
+				font-size: 42px;
+				color: #722E6F;
+				text-align: center;
+				margin: 20px 0;
+			}
+
+		.author-page-about__studies__txt {
+			float: right;
+			width: 60%;
+		}
+
+	.author-page-about__work {
+		margin: 20px 0 40px;
+	}
+
+	

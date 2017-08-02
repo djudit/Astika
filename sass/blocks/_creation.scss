@@ -1,0 +1,108 @@
+.creation {
+	background: url(../images/pic/wall-1.png);
+	@include header-bg;
+	padding: 60px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.creation h2 {
+			color: #964F1F;
+			@include look-h2;
+		}
+
+			.creation__pictures {
+				position: relative;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+
+				.creation__pictures .img-box {
+					flex-basis: (250px/940px)*100%;
+					border: 4px solid #C0723E;
+					margin-top: 35px;
+					margin-bottom: 35px;
+					box-shadow: 0 0 15px rgba(129, 75, 40, 0.4);
+				}
+
+					.i_want-1 {
+						position: absolute;
+						top: 39px;
+						left: 4px;
+					}
+					.i_want-2 {
+						position: absolute;
+						top: 39px;
+						left: 36.81%;
+					}
+					.i_want-3 {
+						position: absolute;
+						top: 39px;
+						left: 72.94%;
+					}
+					.i_want-4 {
+						position: absolute;
+						top: 55.95%;
+						left: 4px;
+					}
+					.i_want-5 {
+						position: absolute;
+						top: 55.95%;
+						left: 36.81%;
+					}
+					.i_want-6 {
+						position: absolute;
+						top: 55.95%;
+						left: 72.94%;
+					}
+
+					.i_want-1,
+					.i_want-2,
+					.i_want-3,
+					.i_want-4,
+					.i_want-5,
+					.i_want-6 {
+						width: (250px/940px)*100%;
+						height: 23.75%;
+						background: #783C14;
+						opacity: 0;
+						color: #E3CEF6;
+						font-family: Play;
+						font-size: 32px;
+						text-align: center;
+						padding-top: 10%;
+						transition: all 1s ease;
+					}
+
+					.i_want-1:hover,
+					.i_want-2:hover,
+					.i_want-3:hover,
+					.i_want-4:hover,
+					.i_want-5:hover,
+					.i_want-6:hover {
+						cursor: pointer;
+						opacity: 0.7;
+					}
+
+			.creation__phrase {
+				padding-top: 40px;
+				text-align: center;
+			}
+
+				.creation__phrase a,
+				.creation__phrase p {
+					color: #562C5B;
+					font-family: Lobster;
+					font-size: 32px;
+					line-height: 48px;
+				}
+
+				.creation__phrase__pen p {
+					float: right;
+					margin: 5% 10%;
+				}
+
+				.creation__phrase__pen .img-box {
+					float: right;
+					width: 20%;
+				}

@@ -1,0 +1,18 @@
+.graduation {
+	background: url(../images/pic/salut.png);
+	@include header-bg;
+	padding: 60px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.graduation h2 {
+		color: #F7FE2E;
+		@include look-h2;
+	}
+
+			.graduation__slick__img-box {
+				width: (200px/940px)*100%;
+				margin: 0 0.5%;
+				border: 10px solid #F7FE2E;
+				box-shadow: 0 0 10px rgba(109, 81, 113, 0.6);
+			}

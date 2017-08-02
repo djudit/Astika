@@ -1,0 +1,35 @@
+.graduation-page-about {
+	padding-bottom: 50px;
+}
+
+	.graduation-page-about .img-box {
+		float: left;
+		width: 35%;
+	}
+
+	.graduation-page-about__txt {
+		float: right;
+		width: 60%;
+	}
+
+	.graduation-page-about p {
+		color: #522577;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.graduation-page-about__txt__item {
+		margin-top: 15px;
+		vertical-align: middle;
+	}
+
+		.graduation-page-about__txt__item .img-box {
+			display: inline-block;
+			width: 10%;
+			margin-right: 5%;
+		}
+
+		.graduation-page-about__txt__item p {
+			display: inline-block;
+			width: 82%;
+		}

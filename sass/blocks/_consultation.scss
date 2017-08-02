@@ -1,0 +1,36 @@
+.consultation {
+	background: url(../images/pic/meditation-2.png);
+	@include header-bg;
+	padding: 30px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.1);
+}
+
+	.consultation #circle {
+		background: url(../images/pic/chair.png);
+		border: 5px solid #FCF9DE;
+		box-shadow: 0 0 10px rgba(46, 115, 78, 0.3);
+	}
+
+	.consultation__about {
+		float: right;
+		width: 60%;
+	}
+
+		.consultation__about h2 {
+			font-family: Lobster;
+			font-size: 42px;
+			line-height: 60px;
+			color: #0d412b;
+		}
+
+		.consultation__about p {
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 48px;
+			color: #216264;
+		}
+
+		.consultation__about .consultation__about__contact {
+			color: #6A0888;
+			font-weight: 600;
+		}

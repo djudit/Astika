@@ -1,0 +1,37 @@
+.creation-page-1-block {
+	padding-bottom: 50px;
+}
+
+	.creation-page-1-block__prev {
+		padding-bottom: 40px;
+	}
+
+		.creation-page-1-block__prev .img-box {
+			float: left;
+			width: 40%;
+			box-shadow: 0 0 10px rgba(119, 85, 37, 0.5);
+		}
+
+		.creation-page-1-block__prev__txt {
+			float: right;
+			width: 55%;
+		}
+
+			.creation-page-1-block__prev__txt h4 {
+				color: #964F1F;
+				font-size: 24px;
+				line-height: 30px;
+				margin-bottom: 20px;
+			}
+
+			.creation-page-1-block__prev__txt p {
+				color: #394956;
+				font-size: 20px;
+				line-height: 24px;
+				margin: 20px 0;
+			}
+
+			.creation-page-1-block__prev__contact {
+				font-size: 24px;
+				font-weight: 600;
+			}
