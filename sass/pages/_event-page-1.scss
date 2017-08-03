@@ -31,7 +31,8 @@
 
 		.event-page-1-block__prev__txt p,
 		.event-page-1-block__detail-1,
-		.event-page-1-block__list {
+		.event-page-1-block__list,
+		.event-fb {
 			color: #308686;
 			font-size: 20px;
 			font-weight: 400;
@@ -39,7 +40,8 @@
 		}
 
 .event-page-1-block__detail-1,
-.event-page-1-block__list {
+.event-page-1-block__list,
+.event-fb {
 	margin-top: 15px;
 	width: 80%;
 	margin-left: 10%;
@@ -60,4 +62,12 @@
 		display: inline-block;
 		width: 85%;
 		vertical-align: middle;
+	}
+
+	.event-fb p {
+		display: inline-block;
+	}
+
+	.event-fb a {
+		display: inline-block;
 	}
