@@ -1,0 +1,67 @@
+.cards {
+	background: url(../images/pic/bg-11.png);
+	@include header-bg;
+	padding: 50px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.cards p {
+		color: #0E7989;
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 40px;
+	}
+
+	.cards__shop {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+		.cards__shop__item {
+			width: 22%;
+			background: #fff;
+			text-align: center;
+			box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+		}
+
+			.cards__shop__item .cards__shop__item__title {
+				display: inline-block;
+				color: #9F28D6;
+				font-size: 18px;
+				font-weight: 600;
+				height: 8%;
+				padding: 20px 0;
+			}
+			.cards__shop__item .cards__shop__item__title:hover {
+				color: #E00ECF;
+			}
+
+			.cards__shop__item .img-box {
+				display: inline-block;
+				width: 90%;
+				border: 1px solid #aaa;
+				box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+				transition: all 0.5s easy; /*почему не работает?*/
+			}
+
+				.cards__shop__item img {
+					width: 95%;
+					border: 4px solid #fff;
+					transition: all 0.5s easy; /*почему не работает?*/
+				}
+
+			.cards__shop__item p {
+				font-weight: 600;
+				margin: 15px 0;
+			}
+
+			.cards__shop__item .img-box:hover {
+				width: 98%;
+				border: 1px solid #fff;
+				box-shadow: 0 0 1px rgba(114, 114, 114, 0.9);
+			}
+				.cards__shop__item .img-box:hover img {
+					width: 98%;
+					border: 1px solid #fff;
+				}

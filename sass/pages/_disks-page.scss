@@ -1,0 +1,83 @@
+.disks-page-about {
+	background: -moz-linear-gradient(left, #D8F5FB 0%, #C9C3FB 50%, #EDB9FB 100%);
+	background: -webkit-linear-gradient(left, #D8F5FB 0%, #C9C3FB 50%, #EDB9FB 100%);
+	background: -o-linear-gradient(left, #D8F5FB 0%, #C9C3FB 50%, #EDB9FB 100%);
+	background: -ms-linear-gradient(left, #D8F5FB 0%, #C9C3FB 50%, #EDB9FB 100%);
+	background: linear-gradient(left, #D8F5FB 0%, #C9C3FB 50%, #EDB9FB 100%);
+	@include header-bg;
+	padding: 50px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+.disks-page-about__contact,
+.disks-page-about__price {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 35px;
+}
+
+	.disks-page-about__contact .img-box,
+	.disks-page-about__price .img-box {
+		width: 10%;
+	}
+
+	.disks-page-about__contact__txt,
+	.disks-page-about__price__txt {
+		width: 60%;
+	}
+
+		.disks-page-about__contact__txt p,
+		.disks-page-about__price__txt p {
+			color: #37516b;
+			font-size: 20px;
+			line-height: 24px;
+			text-align: right;
+		}
+
+		.disks-page-about__price__txt p {
+			display: inline-block;
+			margin-left: 8%;
+		}
+
+		.disks-page-about__contact__txt .disks-page-about__contact__number,
+		.disks-page-about__price__txt .disks-page-about__price__number {
+			color: #602784;
+			font-size: 28px;
+			line-height: 36px;
+			font-weight: 600;
+			text-align: center;
+			margin: 15px 0;
+		}
+
+.disks-page-about__item {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #eee;
+	box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+	margin-bottom: 35px;
+}
+
+	.disks-page-about__item .img-box {
+		margin: 10px 0;
+		width: 32%;
+	}
+
+	.disks-page-about__item__txt {
+		margin: 35px 0;
+		width: 60%;
+	}
+
+		.disks-page-about__item__txt p {
+			color: #303844;
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		.disks-page-about__item__txt .disks-page-about__item__txt__title {
+			color: #6921B1;
+			font-size: 22px;
+			line-height: 26px;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}

@@ -1,0 +1,49 @@
+.shop-page-all {
+	background: url(../images/pic/bg-21.png);
+	@include header-bg;
+	padding: 50px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.shop-page-all .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+		.shop-page-all__item {
+			width: 25%;
+			background: #fff;
+			border-radius: 12px;
+			box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+			padding: 2%;
+		}
+
+			.shop-page-all__item a {
+				display: inline-block;
+				color: #6F2388;
+				font-size: 20px;
+				line-height: 26px;
+				font-weight: 600;
+				text-align: center;
+			}
+			.shop-page-all__item a:hover {
+				color: #BE11A1;
+			}
+
+			.shop-page-all__item .img-box {
+				border: 1px solid #ddd;
+				box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+				margin-bottom: 15px;
+			}
+			.shop-page-all__item .img-box:hover {
+				border: 1px solid #fff;
+			}
+
+				.shop-page-all__item img {
+					width: 92%;
+					border: 8px solid #fff;
+				}
+				.shop-page-all__item .img-box:hover img {
+					width: 99%;
+					border: none;
+				}

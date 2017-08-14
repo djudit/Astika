@@ -1,0 +1,96 @@
+.cards-page-about {
+	background: url(../images/pic/bg-11.png);
+	@include header-bg;
+	color: #303844;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 50px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.cards-page-about__contact {
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 35px;
+	}
+
+		.cards-page-about__contact .img-box {
+			width: 10%;
+		}
+
+		.cards-page-about__contact__txt {
+			width: 60%;
+		}
+
+	.cards-page-about__item {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background: #eee;
+		box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+		margin-bottom: 35px;
+	}
+
+	.cards-page-about__item .img-box {
+		width: 25%;
+		margin: 15px 0;
+		border: 1px solid #ccc;
+		box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+	}
+
+		.cards-page-about__item img {
+			width: 93%;
+			border: 8px solid #fff;
+		}
+
+	.cards-page-about__item__txt {
+		width: 64%;
+	}
+
+		.cards-page-about__title {
+			color: #6921B1;
+			font-size: 22px;
+			line-height: 26px;
+			font-weight: 600;
+			margin: 15px 0;
+		}
+
+	.cards-page-about__item-3k {
+		background: #eee;
+		box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+		text-align: center;
+		padding: 15px 3%;
+	}
+
+		.cards-page-about__item-3k__price {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+			.cards-page-about__item-3k__price .img-box {
+				width: 7%;
+				margin-right: 10px;
+			}
+
+			.cards-page-about__item-3k__price p {
+				margin-left: 10px;
+			}
+
+		.cards-page-about__item-3k__img {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+			.cards-page-about__item-3k__img .img-box {
+				width: 30%;
+				margin: 15px 0;
+				border: 1px solid #ccc;
+				box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+			}
+
+				.cards-page-about__item-3k__img img {
+					width: 93%;
+					border: 8px solid #fff;
+				}

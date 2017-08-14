@@ -1,0 +1,16 @@
+.disks {
+	background: url(../images/pic/flowers_wallcoo.png);
+	@include header-bg;
+	padding: 50px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
+}
+
+	.disks h2 {
+		color: #6921B1;
+		@include look-h2;
+	}
+
+			.disks__slick__img-box {
+				width: (200px/940px)*100%;
+				margin: 0 0.5%;
+			}

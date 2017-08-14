@@ -8,17 +8,17 @@ header {
 			background: none;
 		}
 		30% {
-			background: url(../images/pic/layer-2.png);
+			background: url(../images/pic/layer-2-2.png);
 			@include header-bg;
 			opacity: 0.2;
 		}
 		70% {
-			background: url(../images/pic/layer-2.png);
+			background: url(../images/pic/layer-2-2.png);
 			@include header-bg;
 			opacity: 0.5;
 		}
 		100% {
-			background: url(../images/pic/layer-2.png);
+			background: url(../images/pic/layer-2-2.png);
 			@include header-bg;
 		}
 	}

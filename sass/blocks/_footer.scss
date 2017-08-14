@@ -1,6 +1,7 @@
 .footer {
 	background: #3C1D3C;
 	color: #D09FCF;
+	font-size: 14px;
 	padding: (20px/940px)*100% 0;
 	box-shadow: 0 0 10px rgba(114, 46, 111, 0.2);
 }
@@ -12,11 +13,11 @@
 	}
 
 		.footer nav {
-			width: (670px/940px)*100%;
+			width: (720px/940px)*100%;
 		}
 
 		.footer__contacts {
-			width: (200px/940px)*100%;
+			width: (150px/940px)*100%;
 		}
 
 			.footer__contacts__mobile {
