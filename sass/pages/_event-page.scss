@@ -1,47 +1,67 @@
-.event-page-all__item {
-	margin-bottom: 20px;
+.event-page-all {
+	background: url(../images/pic/lavanda-5.png);
+	@include header-bg;
+	padding: 30px 0;
+	box-shadow: 0 0 10px rgba(114, 46, 111, 0.4);
 }
-	.event-page-all__item__img {
-		float: left;
-		width: 17%;
+.training-page-all {
+	background: url(../images/pic/meditation-1.png);
+}
+.creation-page-all {
+	background: url(../images/pic/bg-31.png);
+}
+
+	.event-page-all__item {
+		background: #fff;
+		box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+		padding: 20px;
+		margin-bottom: 20px;
 	}
-
-	.event-page-all__item__date {
-		color: #722E6F;
-		font-size: 20px;
-		font-weight: 600;
-		line-height: 30px;
-		text-align: center;
-	}
-
-	.event-page-all__item__about {
-		float: right;
-		width: 73%;
-	}
-
-		.event-page-all__item__title {
-			display: block;
-			color: #722E6F;
-			font-size: 26px;
-			font-weight: 400;
-			line-height: 32px;
-		}
-		.event-page-all__item__title:hover {
-			color: #DD73AD;
+		.event-page-all__item__img {
+			float: left;
+			width: 17%;
 		}
 
-		.event-page-all__item__txt {
-			display: block;
-			color: #308686;
-			font-size: 20px;
-			font-weight: 400;
-			line-height: 26px;
-			margin-top: 15px;
-		}
-		.event-page-all__item__txt:hover {
-			opacity: 0.3;
-		}
-
-		.event-page-all .more {
-				margin: 12% 95%;
+			.event-page-all__item__img img {
+				box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
 			}
+
+		.event-page-all__item__date {
+			color: #722E6F;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 30px;
+			text-align: center;
+		}
+
+		.event-page-all__item__about {
+			float: right;
+			width: 73%;
+		}
+
+			.event-page-all__item__title {
+				display: block;
+				color: #722E6F;
+				font-size: 26px;
+				font-weight: 400;
+				line-height: 32px;
+			}
+			.event-page-all__item__title:hover {
+				color: #DD73AD;
+			}
+
+			.event-page-all__item__txt {
+				display: block;
+				color: #308686;
+				font-size: 20px;
+				font-weight: 400;
+				line-height: 26px;
+				margin-top: 15px;
+			}
+			.event-page-all__item__txt:hover {
+				opacity: 0.3;
+			}
+
+			.event-page-all .more {
+					margin: 12% 95%;
+				}
