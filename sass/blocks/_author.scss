@@ -18,6 +18,17 @@
 			float: right;
 			width: 60%;
 		}
+		@media screen and (max-width: 770px) {
+			#circle {
+				float: none;
+				margin-left: 5%;
+			}
+			.author__about {
+				float: none;
+				width: 90%;
+				text-align: center;
+			}
+		}
 
 			.author__about h2 {
 				font-family: Lobster;
@@ -31,4 +42,14 @@
 				font-weight: 400;
 				line-height: 48px;
 				color: #308686;
+			}
+			@media screen and (max-width: 400px) {
+				.author__about h2 {
+					font-size: 36px;
+					line-height: 42px;
+				}
+				.author__about p {
+					font-size: 18px;
+					line-height: 32px;
+				}
 			}
